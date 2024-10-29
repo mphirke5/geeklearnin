@@ -1,0 +1,14 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: pvc-list-binding
+  namespace: default
+subjects:
+- kind: User # or "ServiceAccount" depending on your context
+  name: your-user-or-serviceaccount-name
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: pvc-list-role
+  apiGroup: rbac.authorization.k8s.io
+
