@@ -1,26 +1,26 @@
 #!/bin/bash
 set -e
 
-# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-# ┃                                                                  ┃
-# ┃              🚀 Kubernetes Cluster Bootstrap Script 🚀           ┃
-# ┃                                                                  ┃
-# ┃  🔧 Made with 💙 & Shell by: Mayank Phirke (@mphirke5)           ┃
-# ┃  🌐 GitHub    : https://github.com/mphirke5/geeklearnin          ┃
-# ┃                                                                  ┃
-# ┃  📦 Tech Stack: containerd + kubeadm + flannel                    ┃
-# ┃  🧠 Goal      : Spin up a smooth Kubernetes cluster in minutes!  ┃
-# ┃                                                                  ┃
-# ┃  ⚠️  Warning: Don't blink... It’s faster than your chai break ☕  ┃
-# ┃                                                                  ┃
-# ┃  ✅ Features:                                                     ┃
-# ┃     - Firewall rules ✅                                           ┃
-# ┃     - Sysctl tuning ✅                                            ┃
-# ┃     - Kernel modules ✅                                           ┃
-# ┃     - Flannel overlay networking ✅                               ┃
-# ┃     - Ready to deploy pods in 15 mins 🕒                          ┃
-# ┃                                                                  ┃
-# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+echo "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
+echo "┃                                                                  ┃"
+echo "┃              🚀 Kubernetes Cluster Bootstrap Script 🚀           ┃"
+echo "┃                                                                  ┃"
+echo "┃  🔧 Made with 💙 & Shell by: Mayank Phirke (@mphirke5)           ┃"
+echo "┃  🌐 GitHub    : https://github.com/mphirke5/geeklearnin          ┃"
+echo "┃                                                                  ┃"
+echo "┃  📦 Tech Stack: containerd + kubeadm + flannel                    ┃"
+echo "┃  🧠 Goal      : Spin up a smooth Kubernetes cluster in minutes!  ┃"
+echo "┃                                                                  ┃"
+echo "┃  ⚠️  Warning: Don't blink... It’s faster than your chai break ☕  ┃"
+echo "┃                                                                  ┃"
+echo "┃  ✅ Features:                                                     ┃"
+echo "┃     - Firewall rules ✅                                           ┃"
+echo "┃     - Sysctl tuning ✅                                            ┃"
+echo "┃     - Kernel modules ✅                                           ┃"
+echo "┃     - Flannel overlay networking ✅                               ┃"
+echo "┃     - Ready to deploy pods in 15 mins 🕒                          ┃"
+echo "┃                                                                  ┃"
+echo "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
 
 read -p "👉 Do you want to start the Kubernetes setup now? (yes/no): " CONFIRM
 
